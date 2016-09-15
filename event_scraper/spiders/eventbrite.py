@@ -5,7 +5,7 @@ from event_scraper.items import EventScraperItem
 
 
 class EventbriteSpider(Spider):
-    name = "eventbrite"
+    name = "vimbly"
     allowed_domains = ["vimbly.com"]
     start_urls = [
         "https://www.vimbly.com/"
